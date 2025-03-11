@@ -76,3 +76,84 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## tutor
+
+Berikut ini contoh isi **README.md** untuk proyek Laravel-mu:  
+
+```md
+# Ndzrn4U
+
+🚀 **Ndzrn4U** adalah sebuah aplikasi berbasis Laravel yang dikembangkan untuk [tujuan proyekmu]. Aplikasi ini mencakup fitur seperti [fitur utama].  
+
+---
+
+## 📌 Fitur Utama
+- ✅ [Fitur 1] - Deskripsi fitur 1
+- ✅ [Fitur 2] - Deskripsi fitur 2
+- ✅ [Fitur 3] - Deskripsi fitur 3  
+
+---
+
+## 🛠 Instalasi & Menjalankan Proyek
+
+Pastikan sudah menginstall **PHP, Composer, dan Node.js** sebelum menjalankan proyek ini.  
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/nadzran4/Ndzrn4U.git
+cd Ndzrn4U
+```
+
+### 2️⃣ Install Dependensi
+```bash
+composer install
+npm install && npm run dev
+```
+
+### 3️⃣ Konfigurasi `.env`
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+**Pastikan mengatur konfigurasi database di `.env` sesuai kebutuhan.**  
+
+### 4️⃣ Migrasi Database
+```bash
+php artisan migrate --seed
+php artisan storage:link 
+```
+
+### 5️⃣ Jalankan Aplikasi
+```bash
+php artisan serve
+```
+Buka di browser: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**  
+
+---
+
+## 🔗 Teknologi yang Digunakan
+- Laravel 10.x
+- PHP 8.x
+- MySQL / PostgreSQL
+- Tailwind CSS / Bootstrap (opsional)
+- Vue.js / React.js (jika ada frontend)  
+
+---
+
+## 📄 Lisensi
+Proyek ini menggunakan lisensi **MIT** / (sesuai lisensi proyekmu).  
+
+---
+
+## 📞 Kontak  
+Jika ada pertanyaan atau ingin berkontribusi, hubungi:  
+📧 Email: [email@example.com]  
+🐦 Twitter: [@nadzran4](https://twitter.com/nadzran4)  
+
+---
+
+💡 **Silakan edit bagian fitur, teknologi, dan kontak sesuai kebutuhan proyekmu!** 🚀
+```
+
